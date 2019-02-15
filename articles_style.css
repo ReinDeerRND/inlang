@@ -1,0 +1,25 @@
+.article-content{
+	padding:10px;
+	margin:10px;
+	width:98%;
+	box-shadow: 0 0 3px #cccccc;
+	background-color: white;
+}
+.amaze-word{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+.amaze-word img{
+	
+}
+.article-content h3{
+	text-align: center;
+	color:darkblue;
+}
+.verb-prep{	
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}

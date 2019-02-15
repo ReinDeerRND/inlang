@@ -1,0 +1,8 @@
+function showTodayDate(){
+	  	var todayDate=new Date();
+  		var weekDays=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday" ];
+  		var months=["January","February","March","April","May","June","July","August", "September","October","November","December"];
+
+  		var today="Today is "+weekDays[todayDate.getDay()-1]+"<br>"+months[todayDate.getMonth()-1] + " "+todayDate.getDate()+", "+(todayDate.getYear()+1900);
+  		return today;
+}

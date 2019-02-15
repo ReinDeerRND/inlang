@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>InLanguage - Test</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="test_style.css" type="text/css"/>
+        <link rel="stylesheet" href="base-page_style.css" type="text/css"/>
+    </head>
+   <body>
+ 
+  <div class="wrapper">
+   <div class="content">
+    <div class="header">
+      <div class="title_inLang"><p>InLANGUAGE</p></div>
+      <nav class="menu">
+        <ul> 
+         <li class="menu-item"><a href="index.html">About</a></li>
+         <li class="menu-item"><a href="lexis.html">Vocabulary</a>
+         <ul class="submenu">
+            <li class="submenu-item"><a href="#">Kids</a></li>
+            <li class="submenu-item"><a href="#">Teens</a></li>
+            <li class="submenu-item"><a href="#">Adults</a></li>
+          </ul>
+        </li>
+         <li class="menu-item"><a href="blog.html">Blog</a></li>
+         <li class="menu-item"><a href="cards.html">Cards</a></li>
+         <li class="menu-item"><a href="test.html">Tests</a></li>
+         <li class="menu-item"><a href="articles.html">Articles</a></li>
+         <li class="menu-item"><a href="contact.html">Contact</a></li>
+       </ul>
+      </nav>
+    </div>
+
+    <div class="layout">
+
+      <div class="foobar">
+        <div class="quote">To get anywhere, strike out for somewhere, or you will get nowhere</div>
+        <div class="quote">A dream becomes a goal when action is taken toward its achievement
+        </div>
+        <div class="quote">Even a stopped clock is right twice a day</div>
+               <div class="quote">There’s no half-singing in the shower, you’re either a rock star or an opera diva</div>
+        <div class="quote">Non scholae, sed vitae discimus</div>
+        <div class="quote">Be careful with your thoughts – they are the beginning of deeds.</div>
+      </div>
+
+      <div class="main">
+          
+            <section class="test-box">
+             <label class="test-sentense">I ______ never been in London.</label>
+              <input type="checkbox"  id="test-london1" ><span>had</span><br>
+              <input type="checkbox"  id="test-london2" ><span>have</span><br>
+              <input type="checkbox"  id="test-london3" ><span>am</span><br>
+              <input type="checkbox"  id="test-london4" ><span>was</span><br>
+          </section> 
+          <section class="test-box">
+             <label class="test-sentense">Robert, stop ________!</label>
+              <input type="checkbox" id="test-talk1" ><span>talking</span><br>
+              <input type="checkbox" id="test-talk2" ><span>talk</span><br>
+              <input type="checkbox" id="test-talk3" ><span>to talk</span><br>
+              <input type="checkbox" id="test-talk4" ><span>talks</span><br>
+          </section>
+          <section class="test-box">
+             <label class="test-sentense">If I ____ a car I ______ come to my parents!</label>
+              <input type="checkbox" id="car1" ><span>had ... would</span><br>
+              <input type="checkbox" id="car2" ><span>have ... would</span><br>
+              <input type="checkbox" id="car3" ><span>have ... will</span><br>
+              <input type="checkbox" id="car4" ><span>had ... will</span><br>
+          </section>
+          <section class="test-box">
+             <label class="test-sentense">Have _ nice day!</label>
+              <input type="checkbox" id="day1" ><span>__</span><br>
+              <input type="checkbox" id="day2" ><span>the</span><br>
+              <input type="checkbox" id="day3" ><span>to</span><br>
+              <input type="checkbox" id="day4" ><span>a</span><br>
+          </section>
+          <section class="test-box">
+             <label class="test-sentense"> __ there a zoo near here?</label>
+              <input type="checkbox" id="zoo1" ><span>have</span><br>
+              <input type="checkbox" id="zoo2" ><span>is</span><br>
+              <input type="checkbox" id="zoo3" ><span>do</span><br>
+              <input type="checkbox" id="zoo4" ><span>are</span><br>
+          </section>
+          <section class="test-box">
+             <label class="test-sentense"> _______ to go out to an Japan restaurant tonight?</label>
+              <input type="checkbox" id="rest1" ><span>Would you like</span><br>
+              <input type="checkbox" id="rest2" ><span>Are you liking</span><br>
+              <input type="checkbox" id="rest3" ><span>You like</span><br>
+              <input type="checkbox" id="rest4" ><span>Do you like</span><br>
+          </section>
+          <section class="test-box">
+             <label class="test-sentense"> China has ____ brige in the world.</label>
+              <input type="checkbox" id="brige1" ><span>long</span><br>
+              <input type="checkbox" id="brige2" ><span>the longest</span><br>
+              <input type="checkbox" id="brige3" ><span>the most long</span><br>
+              <input type="checkbox" id="brige4" ><span>longer</span><br>
+          </section>
+          <section class="test-box">
+             <label class="test-sentense">You're from London, __?</label>
+              <input type="checkbox" id="from-london1" ><span>isn't it?</span><br>
+              <input type="checkbox" id="from-london2" ><span>are you?</span><br>
+              <input type="checkbox" id="from-london3" ><span>aren't you?</span><br>
+              <input type="checkbox" id="from-london4" ><span>don't you?</span><br>
+          </section>
+
+          <center> <p id="answer" class="answer"></p></center>
+          <button  onclick="check()" class="btn check">Проверить</button> 
+        
+      </div>
+
+    </div>
+   </div>
+
+    <div class="footer"> 
+      <div>Autor:Irina Gustodi</div>
+    </div>
+    </div>
+   <script type="text/javascript" src="test.js"></script>
+   </body>
+</html>

@@ -1,0 +1,58 @@
+
+.main .card-box{
+	margin:10px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding: 10px;
+	padding-bottom: 15px;
+	display:inline-block;
+	width:190px;
+	height: 220px;
+	box-shadow: 0 0 3px #cccccc;
+	border-radius: 1%;
+	background-repeat:  no-repeat;
+	background-position:  50% 50%;
+	background-size: contain; 
+	background-origin:content-box;
+	background-color: rgb(265,265,265,0.4);
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: bold;
+	letter-spacing: 5px; 
+	font-family: COLONNA MT;
+	font-size:0;
+	color:darkbrown;
+	text-shadow: 1px 1px 20px grey;
+}
+
+.main .card-box:hover span{
+	position: relative;
+	font-size:25px;
+	top: 205px;
+}
+
+.main .card-dog{
+		background-image: url("dog.png");
+}
+
+.main .card-cat{
+	background-image: url("cat.png");
+}
+.main .card-pigeon{
+	background-image: url("pigeon.png");
+}
+.main .card-deer{
+	background-image: url("deer.png");
+}
+.main .card-cow{
+	background-image: url("cow.png");
+}
+.main .card-sheep{
+	background-image: url("sheep.png");
+}
+.main .card-parrot{
+	background-image: url("parrot.png");
+}
+.main .card-bear{
+	background-image: url("bear.png");
+}

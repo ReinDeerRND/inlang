@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Behrens; /* Гарнитура шрифта */
+    src: url(fonts/behrens.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: Sriracha; /* Гарнитура шрифта */
+    src: url(fonts/Sriracha.otf); /* Путь к файлу со шрифтом */
+   }
+html{
+	height:100%;
+	padding: 0;
+	margin:0;
+}
+body{
+	background-color:#f0f8ff;
+	height:100%;
+	padding: 0;
+	margin:0;
+}
+.wrapper{
+	height:100%;
+	display:flex;
+	flex-direction:column;
+}
+.content{
+	flex:1 0 auto;
+
+}
+.temp{
+	color:grey;
+	margin:25px;
+	font-style:italic;
+	font-size:25px;
+}
+
+
+.header{
+	display: inline-block;
+	width: 100%;
+	height:100%;
+	box-shadow: 0 2px 1px 1px lightgrey;
+}
+.header .menu{
+	display:inline-block;
+	height: 160px;
+	width: 100%;
+	background-image: url("carry.png"),
+	linear-gradient(to right, #f0f8ff,#add8e6 90%, #f0f8ff);
+	background-repeat: no-repeat;
+	background-position: 87% 70%, center center;
+	background-size:contain;
+}
+.header .title_inLang{
+	position: absolute;
+	left:20px;
+	top:0px;
+	color:	#059033;
+	z-index: 1000;
+	font-size: 45px;
+	text-shadow: 1px 2px 2px 	#a4dded;
+	font-family: COLONNA MT;
+}
+.header .menu li{
+	display: inline-block;
+	/*border:1px dashed yellow;*/
+	list-style-type: none;
+	padding:10px;
+	margin-right: 35px;	
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	position: relative;
+
+}
+.header .menu ul{
+	margin-top: 110px; 
+	margin-left:150px;
+    padding: 0;
+}
+.header .menu a{
+	text-decoration: none;
+	color:	#000080;
+	text-shadow: 2px 2px 5px white	/*#dcd0ff*/;
+	font-family: Sriracha, LUCIDA CONSOLE;
+}
+
+.header li:hover {
+	border-radius: 5%;
+	background-color: #abcdef;
+}
+.header li:hover a{
+	color:#01796f;
+}
+/*submenu*/
+.header .menu ul .submenu{
+	position: absolute;
+	top:40px;
+	left:0;
+	margin:0;
+    padding: 0;
+    border-radius: 5%;
+    z-index:1000;
+    display: none;
+
+}
+.header .submenu li {
+	display: block;
+	width: 120px;
+	background-color:	#dcdcdc;
+	font-size: 12px;
+	z-index:100;
+	border-bottom:1px solid grey;
+}
+
+.header .menu li:hover ul {
+	display: block;
+}
+
+.header .submenu li:hover{
+	background-color: #abcdef;
+}
+
+/*foobar*/
+
+.foobar{
+	display:inline-block;
+	width: 20%;
+	min-height: 200px;
+	height: auto;
+	vertical-align: top;
+	background-color: #f0f8ff;
+	margin-top: 5px;
+}
+.quote{
+	margin: 10px 15px 15px;
+	padding:5px 10px;
+	text-indent: 15px;
+	border:2px solid grey;
+	background-color: #c4c3d0;
+	font-family: Sriracha;
+	font-size:18px;
+	text-shadow: 1px 1px 1px #f0f8ff;
+	font-weight: bold;
+	color: #4b0082;
+	box-shadow: 0px 0px 1px 2px #4b0082,
+	1px 1px 1px 2px lightgrey;
+}
+.date{
+	font-family: Sriracha, Arial;
+	margin: 10px 15px 15px;
+	font-size:18px;
+	padding:5px 10px;
+	text-align:center;
+	text-shadow: 1px 1px 1px #f0f8ff;
+	font-weight: bold;
+	color: grey;
+}
+
+.main{
+	display:inline-block;
+	width:75%;
+	min-height: 200px;
+	height: auto;
+	vertical-align: top;
+}
+
+
+/*footer*/
+
+
+.footer{
+	flex: 0 0 auto;
+	display:inline-block;
+	margin-top: 10px;
+  padding-top: 100px;
+ 
+  width: 100%;
+  min-height: 10px;
+  background-image: linear-gradient(to right, #f0f8ff,#add8e6 90%, #f0f8ff);
+  color:grey;
+  font-style: italic;
+
+}
+.layout{
+	
+	width:100%;
+	min-height: 300px;
+}

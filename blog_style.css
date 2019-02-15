@@ -1,0 +1,69 @@
+
+.main .main-box{
+  padding:10px;
+  margin:15px;
+  width:240px;
+  height: 170px;
+  box-shadow: 0 0 3px #cccccc;
+  border-radius: 1%;
+}
+
+.main .blog-box{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 150px;
+  border:1px solid #cccccc;
+  margin-top: 20px;
+  box-shadow: 0 0 3px #cccccc;
+}
+.main .blog_avatar{
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  position: absolute;
+  top:10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  /*border:1px solid blue;*/
+}
+.main .photo_irina{
+  background-image: url("irina.png");
+
+}
+.main .photo_swi{
+  background-image: url("swi.png");
+}
+.main .blog_article{
+  margin: 10px;
+  margin-left: 120px;
+  width: 83%;
+  min-height: 100px;
+  height: auto;
+  /*border:1px solid red;*/
+  padding: 15px;
+  color:  #000080;
+  font-size: 17px;
+  background-color: rgb(265,265,265,0.4);
+  box-shadow: 0 0 3px #cccccc; 
+  text-align: justify;
+}
+
+.main .blog_article span{
+  display: block;
+  color:#059033;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main .blog_author{
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  /*border:1px solid yellow;*/
+  top:130px;
+  left:10px;
+  font-style: italic;
+  color:#cccccc;
+}

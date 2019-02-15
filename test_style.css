@@ -1,0 +1,33 @@
+
+.main .test-box{
+	margin:15px;
+	margin-bottom: 0;
+	padding: 10px;
+	padding-bottom: 15px;
+	display:inline-block;
+	width:42%;
+	height:auto;
+	box-shadow: 0 0 3px #cccccc;
+	border-radius: 1%;
+
+}
+.main .test-sentense{
+	display: block;
+	margin:10px 0;
+
+}
+.main .btn{
+	padding: 7px;
+	border-radius: 7%;
+	margin:10px;
+}
+.main .check{
+	position: relative;
+	left: 40%;
+}
+.main .answer{
+
+	color:darkblue;
+	font-size:20px;
+	font-weight: bold;
+}
